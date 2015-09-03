@@ -8,10 +8,99 @@ and open the template in the editor.
     <head>
         <title>Contact</title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+        <!--	 Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+	
+	  <link rel="stylesheet" href="style.css"> 
     </head>
     <body>
-    
-        <div></div>
+        <nav class="main-nav">
+            <ul class="nav">
+                    <li role="presentation" class="dropdown" ><a href="#" title="Accueil" aria-haspopup="true" aria-expanded="false" data-toggle="dropdown"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>  Accueil</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">choix 1</a></li>
+                            <li><a href="#">choix 2</a></li>    
+                        </ul>
+                    
+                    </li>
+                    <li class="nav-item"><a href="views/contact.html" title="contact"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>  Contact</a></li>
+
+            </ul>
+        </nav>
+        
+        <fieldset>
+            <legend>Contact</legend>
+
+            <form action="contact.php" method="post" >
+                <div class="form-inline">
+                        <label for="champ_nom">Nom:</label>
+                        <input type="text" id="champ_nom" placeholder="Dupont"> 
+
+                </div>
+                <div class="form-inline">
+                        <label for="champ_prenom">Prenom:</label>
+                        <input type="text" id="champ_prenom" placeholder="Jean"> 
+                </div>
+                <div class="form-group">
+                        <label for="champ_sexe">Sexe:</label>
+                                <input type="radio" name="sexe" id="champ_sexe" value="homme"> homme
+                                <input type="radio" name="sexe" id="champ_sexe" value="femme"> femme
+
+                </div>
+
+                <div class="form-group">
+                        <label for="champ_date">Date de naissance:</label>
+                        <input type="date" id="champ_date"> 
+                </div>
+                <div class="form-group">
+                        <label for="champ_email">Email:</label>
+                        <input type="email" id="champ_email" placeholder="dupont@exemple.com"> 
+                </div>
+                <div class="form-group">
+                        <label for="champ_url">Site internet:</label>
+                                <input type="url" id="champ_url" placeholder="www.google.com">
+                </div>
+                <div class="form-group">
+                        <label for="champ_phone"><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span></label>
+                        <input type="tel" pattern="^((\+\d{1,3}(-| )?\(?\d\)?(-| )?\d{1,5})|(\(?\d{2,6}\)?))(-| )?(\d{3,4})(-| )?(\d{4})(( x| ext)\d{1,5}){0,1}$" id="champ_phone" placeholder="01 23 45 67 89" > 
+                </div>
+                <div class="form-group">
+                        <label for="champ_color">Couleur Préférée:</label>
+                        <input type="color" id="champ_color" > 
+                </div>
+                <div>
+                        <label for="champ_message">Message:</label>
+                        <textarea id="champ_message" placeholder="Votre message"></textarea> 
+                </div>
+
+                <div class="field_valid">
+                        <label for="champ_submit"></label>
+                        <input type="submit" id="champ_submit" value="Envoyer">
+                </div>
+
+            </form>
+		
+	</fieldset>
+
+	<footer>
+            <address>
+                    <h3>Contactez-Nous</h3>
+                    <p>Erwan Stéphan: 
+                            <a href="mailto:erwan.st29@gmail.com" title="envoyez-moi un mail SVP">
+                            erwan.st29@gmail.com</a>
+
+                    </p>
+                    <p>Yoann Richard: 
+                            <a href="mailto:yoannichard@gmail.com" title="envoyez-moi un mail SVP">
+                            yoannichard@gmail.com</a>
+
+                    </p>
+            </address>
+        </footer>
     </body>
 </html>
