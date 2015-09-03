@@ -1,36 +1,50 @@
 <!DOCTYPE html>
 <!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
+Site pour se former à la gestion de projet sur GIT
 -->
 <html>
     <head>
         <title>CV Formation Git-GitHub</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="CV Yoann RICHARD."/>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <!--jQuery (necessary for Bootstrap's JavaScript plugins)-->
+        <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     </head>
     <body>
-        <header id="banner" class="body">
-            <h1>CV Formation Git-Github</h1> 
-            <nav>
-                <ul>
-                    <li class="active"><a href="index.html">home</a></li>
-                    <li><a href="cv.html">Cv</a></li> 
-                    <li><a href="contact.html">Contact</a></li>                    
-                </ul>
-            </nav>
-        </header>
-        
-        <section id="content" class="body">
-            <article>
-                <h2>Bienvenu sur notre site de gestion de CV</h2>                
-            </article>
-        </section>
-        
-        <footer id="contentinfo" class="body">
-            <p>&copy; 2015 Yoann Erwan DTA<p>
-        </footer>
+        <div class="container">
+            <header class="row-offcanvas row-offcanvas-right"> 
+                <ul class="nav nav-tabs">
+                    <li class="active" role="presentation"><a  href="index.html">Home</a></li>
+                    <li role="presentation" class="dropdown">                    
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">CV <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="views/cv_yoann.html">CV Yoann RICHARD</a></li> 
+                            <li><a href="views/cv_erwan.html">CV Erwan JORNATHAN</a></li>                    
+                        </ul>                    
+                    </li>
+                    <li><a href="contact.html">Contact</a></li> 
+                </ul>      
+                <div class="jumbotron">
+                    <div class="containerv text-center">
+                        <h2>Bienvenue sur notre site de gestion de CV</h2> 
+                    </div>
+                </div>
+            </header>       
 
+            <section class="row-offcanvas row-offcanvas-right">
+                <article>
+                    <h2>Bienvenu sur notre site de gestion de CV</h2>                
+                </article>
+            </section>
+
+            <footer class="row-offcanvas row-offcanvas-right">
+                <p>&copy; 2015 Yoann Erwan DTA<p>
+            </footer>
+        </div>
     </body>
 </html>
