@@ -134,18 +134,21 @@
                     <h2 class="panel-heading">Formation</h2>                    
                     <div class="row ">
                         <div class="col-xs-6 col-lg-3">
-                            <h3>Clever Institut, <em>Saint-Herblain</em> (44)</h3>
+                            <h3>Clever Institut, <em>Saint-Herblain</em> (44)</h3>                            
                             <p class="label label-default">2015 (55 jours)</p>
+                            <br>
                             <p>Formation développement JAVA/JEE</p>          
                         </div><!--/.col-xs-6.col-lg-4--> 
                         <div class="col-xs-6 col-lg-3">
                             <h3>ENI ECOLE CHARTRES DE BRETAGNE, <em>Chatres de Bretagne</em> (35)</h3>
                             <p class="label label-default">2013 (8 mois)</p>
+                            <br>
                             <p>CONCEPTEUR DEVELOPPEUR D'APPLICATION</p>          
                         </div><!--/.col-xs-6.col-lg-4--> 
                         <div class="col-xs-6 col-lg-3">
-                            <h3>Université Catholique de l'Ouest, <em>Guinguamp</em> (22)</h3>
+                            <h3>Université Catholique de l'Ouest, <em>Guinguamp</em> (22)</h3>                            
                             <p class="label label-default">2006</p>
+                            <br>
                             <p>LICENCE PROFESSIONNELLE DE TECHNICO-COMMERCIAL</p>  
                             <ul>
                                 <li>Identifier les besoins du client </li>   
@@ -153,8 +156,9 @@
                             </ul>        
                         </div><!--/.col-xs-6.col-lg-4--> 
                         <div class="col-xs-6 col-lg-3">
-                            <h3>Lycée Saint-Sauveur, <em>Redon</em> (35)</h3>
+                            <h3>Lycée Saint-Sauveur, <em>Redon</em> (35)</h3>                            
                             <p class="label label-default">200</p>
+                            <br>
                             <p>BTS INFORMATIQUE DE GESTION</p>                               
                         </div><!--/.col-xs-6.col-lg-4--> 
                     </div>                        
@@ -180,12 +184,116 @@
                             <h4>Développeur informatique</h4>	
                             <h5 class="label label-default">Avril - Juillet 2015</h5>
                             <h5 class="label label-default">Fevrier - Octobre 2015</h5>
+
                             <ul>
-                                <li>Développement de scripts de gestion des utilisateurs du domaine.</li>   
-                                <li>Gestion des quotas des utilisateurs sur un serveur de fichiers VB.Net.</li>									
-                                <li>Inventaires des impressions du parc informatiques VB.Net.</li>
-                                <li>Gestion des demandes d'investissements, plugin GLPI en PHP.</li>
-                                <li>Gestion des connexions aux ordinateurs dans l'Active Directory</li>
+                                <li>
+                                    Développement de scripts de gestion des utilisateurs du domaine dans l'Active Directory.
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary  btn-xs" data-toggle="modal" data-target="#myModal">
+                                        +
+                                    </button>
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                    <h4 class="modal-title" id="myModalLabel">Présentation de scripts</h4>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <p>Afin d'aider le service informatique dans sa gestion des utilisateurs, la DSI m'a demandée de développer un module en powershell permettant de gerer les droits de connexion aux ordinateurs du domaine.
+                                                        Pour cela, j'ai divisé le module en trois parties : </p>
+                                                    <ul>
+                                                        <li>Gestion par groupes d'utilisateur (OU) :</li>
+                                                        <li>Gestion par d'utilisateur (OU) :</li>
+                                                        <li>Sur tout l'Active Directory :</li>                                                           
+                                                    </ul>
+                                                    <br>
+                                                    <!-- 4:3 aspect ratio -->
+                                                    <div class="embed-responsive embed-responsive-4by3">
+                                                        <iframe class="embed-responsive-item" src="../img/scripts.ogg"></iframe>
+                                                    </div>
+                                                    
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </li>  
+                                <li>Gestion des quotas des utilisateurs sur un serveur de fichiers VB.Net.
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary  btn-xs" data-toggle="modal" data-target="#myModal1">
+                                        +
+                                    </button>
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                    <h4 class="modal-title" id="myModalLabel">Gestion des quotas des utilisateurs</h4>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <p>Afin de faciliter la gestion de la capacité de stockage des utilisateurs sur le serveur de fichier, la DSI à souhaiter élaborer un programme en VB.net.
+                                                    Le principe est : </p>
+                                                    <ul>
+                                                        <li>Une personne du service exploitation saisie le nom d'un utilisateur</li>
+                                                        <li>Elle sélectionne le répertoire à augmenter
+                                                            <ol>
+                                                                <li>En fonction de l'espace disponible sur le disque dur de la baie</li>
+                                                            </ol>                                                                
+                                                        </li>
+                                                    </ul>
+                                                    
+                                                    <!-- 4:3 aspect ratio -->
+                                                    <div class="embed-responsive embed-responsive-4by3">
+                                                        <iframe class="embed-responsive-item" src="../img/quota1.ogg"></iframe>
+                                                    </div>
+                                                    
+                                                    <p>Après avoir effectué ce module, on m'a demandé de developper un module permettant de filtrer les dossiers en fonction du pourcentage que le dossiers prend sur le serveur afin de leur mettre un quota</p>
+                                                    <!-- 4:3 aspect ratio -->
+                                                    <div class="embed-responsive embed-responsive-4by3">
+                                                        <iframe class="embed-responsive-item" src="../img/quota2.ogg"></iframe>
+                                                    </div>                                                    
+                                                    <p>Puis un module de recherche permettant de trouver soit les ordinateurs ou les utilisateurs désactivés depuis x mois</p>
+                                                    <!-- 4:3 aspect ratio -->
+                                                    <div class="embed-responsive embed-responsive-4by3">
+                                                        <iframe class="embed-responsive-item" src="../img/quota2.ogg"></iframe>
+                                                    </div>       
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>                                        
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>									
+                                <li>Inventaires des impressions du parc informatiques VB.Net.
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary  btn-xs" data-toggle="modal" data-target="#myModal">
+                                        +
+                                    </button>
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                    <h4 class="modal-title" id="myModalLabel">Gestion des inventaires des impressions</h4>
+                                                </div>
+                                                <div class="modal-body">
+                                                    ...
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>                                        
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>Gestion des demandes d'investissements, plugin GLPI en PHP.</li>  
+                                <li>Vérification des baies 3PAR</li>
                             </ul>                                  
                         </div><!--/.col-xs-6.col-l-->                        
                         <div class="col-xs-6 col-lg-3">
@@ -204,8 +312,8 @@
                             <h5 class="label label-default">Mars 2013 - Novembre 2013</h5>
                             <ul>
                                 <li>Gestion clientéle d'une clinique vétérinaire VB.Net et BDD SQL Server.</li>
-                                    <li>Gestion de test QCM en JAVA EE et BDD SQL Server.</li>
-                                    <li>Conduite de projet sur la gestion des documents de l'écoles ENI.</li>
+                                <li>Gestion de test QCM en JAVA EE et BDD SQL Server.</li>
+                                <li>Conduite de projet sur la gestion des documents de l'écoles ENI.</li>
                             </ul>	                             
                         </div><!--/.col-xs-6.col-l-->
                     </div>
