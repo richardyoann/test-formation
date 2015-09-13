@@ -12,18 +12,17 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     </head>
     <body>
-        
+
         <div class="container">
             <ul class="nav nav-tabs">
                 <li  role="presentation"><a  href="../index.html">Home</a></li>
                 <li role="presentation" class="dropdown">                    
                     <a class="dropdown-toggle" data-toggle="dropdown" href="" role="button" aria-haspopup="true" aria-expanded="false">CV <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="cv_yoann.html">CV Yoann RICHARD</a></li> 
-                        <li><a href="cv_erwan.html">CV Erwan JORNATHAN</a></li>                    
+                        <li><a href="../views/cv_yoann.html">Concepteur et développeur d'application</a></li>                              
                     </ul>                    
                 </li>
-                <li class="active"><a href="../views/contact.html">Contact</a></li> 
+                <li class="active"><a href="contact.html">Contact</a></li> 
             </ul>      
             <header>
                 <div class="jumbotron">
@@ -68,8 +67,6 @@
                                 <div class="form-group">
                                     <div class="col-sm-offset-2 col-sm-10">
                                         <input  id="envoie_message" name=envoie_message type=submit value=Envoyer /> 
-
-                                        <input id="annule_message" name=annule_message type=reset value=Annuler /> 
                                     </div>  
                                 </div>
 
@@ -81,10 +78,27 @@
                                     <div class="col-sm-10">
                                         <textarea id=message name=message rows="10" cols="50" placeholder="Mettre votre message" required></textarea>
                                     </div>
+                                    <div class="form-group">
+                                        <div class="col-sm-offset-2 col-sm-10">                                       
+                                            <input id="annule_message" name=annule_message type=reset value=Annuler /> 
+                                        </div>  
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </form>
+                </section>
+            </section>
+            <section>
+                <section class="row-offcanvas row-offcanvas-right"> 
+                    <section class="panel panel-default ">
+                        <h2 class="panel-heading">Carte</h2>
+                        <div class="row">
+                            <div class="col-md-12 text-center"> 
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d660.1923616918073!2d-2.551709000000034!3d48.55681000000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDMzJzI0LjUiTiAywrAzMycwNi4yIlc!5e0!3m2!1sfr!2sfr!4v1434470042411" width="1000" height="450" frameborder="0" style="border:0"></iframe>
+                            </div>
+                        </div>
+                    </section>
                 </section>
             </section>
             <footer class="row-offcanvas row-offcanvas-right">
